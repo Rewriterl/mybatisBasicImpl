@@ -1,0 +1,9 @@
+<configuration>
+    <dataSource>
+        <property name="driverClass" value="com.mysql.cj.jdbc"></property>
+        <property name="jdbcUrl" value="jdbc:mysql:///mybatis"></property>
+        <property name="username" value="root"></property>
+        <property name="password" value="inmydocker"></property>
+    </dataSource>
+    <mapper resource="UserMapper.xml"></mapper>
+</configuration>
